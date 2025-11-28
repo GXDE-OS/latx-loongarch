@@ -1,0 +1,9 @@
+#!/bin/sh
+
+sysctl --system || true
+systemctl restart systemd-binfmt.service || true
+if [ -z "$2" ]; then
+        systemctl enable systemd-binfmt.service || true
+fi
+
+

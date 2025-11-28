@@ -1,0 +1,10 @@
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 4468
+Description: Run loongarch app on mips64el
+Architecture: mips64el
+Version: 1.0.0gxde1
+Priority: optional
+Conflicts: qemu-user-static, qemu-user-binfmt, com.tencent.la.wechat
+Package: latx-loongarch
+Depends: libc6
+Section: default
