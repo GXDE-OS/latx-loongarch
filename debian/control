@@ -1,0 +1,20 @@
+Source: latx-loongarch
+Section: utils
+Priority: optional
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+
+Package: latx-loongarch
+Architecture: mips64el
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Conflicts: 
+ qemu-user-static, 
+ qemu-user-binfmt,
+ com.tencent.la.wechat,
+Description: Run loongarch app on mips64el
+ Run loongarch app on mips64el
